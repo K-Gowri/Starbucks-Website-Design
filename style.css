@@ -329,4 +329,29 @@ font-size: 3rem;
   .home-text h2{
     font-size: 1.2rem;
   }
+
+}
+@media (max-width:768px){
+    .home-text{
+        padding-top: inherit;
+    }
+    .shop-container .box{
+        margin-top: 6rem;
+    }
+    .heading h1{
+         font-size: 1.5rem;
+    }
+    .heading span{
+        font-size: 0.9rem;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+   
+}
+@media (max-width:364px){
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
 }
