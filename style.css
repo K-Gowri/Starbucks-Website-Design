@@ -297,10 +297,11 @@ font-size: 3rem;
     }
    #menu-icon{
     display: initial;
+    padding-left: 290px;
    }
    header .navbar{
     position: absolute;
-    top:100%;
+    top:-500px;
     left: 0;
     right: 0;
     display: flex;
@@ -309,7 +310,7 @@ font-size: 3rem;
     box-shadow: 0 4px 4px rgb(14 55 54 / 14%);
     border-top: 2px solid var(--main-color);
     transition: 0.2s;
-    text-emphasis: left;
+    text-align: left;
    }
    .navbar a{
     padding:1.5rem;
@@ -319,4 +320,13 @@ font-size: 3rem;
    .navbar.active{
     top:100%;
    }
+  .home-text span{
+    font-size: 0.9rem;
+  }
+  .home-text h1{
+    font-size: 2.4rem;
+  }
+  .home-text h2{
+    font-size: 1.2rem;
+  }
 }
